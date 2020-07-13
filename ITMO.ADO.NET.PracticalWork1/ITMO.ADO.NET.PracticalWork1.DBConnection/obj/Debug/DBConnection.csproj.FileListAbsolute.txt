@@ -1,0 +1,10 @@
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\bin\Debug\DBConnection.exe.config
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\bin\Debug\DBConnection.exe
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\bin\Debug\DBConnection.pdb
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\obj\Debug\DBConnection.csprojAssemblyReference.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\obj\Debug\DBConnection.DBConnection.resources
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\obj\Debug\DBConnection.Properties.Resources.resources
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\obj\Debug\DBConnection.csproj.GenerateResource.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\obj\Debug\DBConnection.csproj.CoreCompileInputs.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\obj\Debug\DBConnection.exe
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\LabWork\DBConnection\DBConnection\obj\Debug\DBConnection.pdb
