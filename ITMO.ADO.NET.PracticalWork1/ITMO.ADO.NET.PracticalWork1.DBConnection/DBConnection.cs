@@ -9,13 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Runtime.CompilerServices;
+using System.Configuration;
 
 namespace DBConnection
 {
     public partial class DBConnection : Form
     {
         SqlConnection connection = new SqlConnection();
-        string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; Initial Catalog = Northwind; Integrated Security = true";
+        //string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; Initial Catalog = Northwind; Integrated Security = True";
 
         public DBConnection()
         {
@@ -23,6 +24,16 @@ namespace DBConnection
             this.connection.StateChange += new StateChangeEventHandler(this.connection_StateChange);
         }
 
+        static string GetConnectionStringByName(string name)
+        {
+            string returnValue = null;
+            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[name];
+            if (settings != null)
+                returnValue = settings.ConnectionString;
+            return returnValue;
+        }
+
+        string connectionString = GetConnectionStringByName("DBConnect.NorthwindConnectionString");
 
         private void connection_StateChange(object sender, StateChangeEventArgs e)
         {
@@ -101,6 +112,21 @@ namespace DBConnection
             //{
             //    MessageBox.Show("Ошибка соединения с базой данных");
             //}
+        }
+
+        private void ConnectionList_Click(object sender, EventArgs e)
+        {
+            ConnectionStringSettingsCollection settings = ConfigurationManager.ConnectionStrings;
+
+            if (settings != null)
+            {
+                foreach (ConnectionStringSettings cs in settings)
+                {
+                    string str = String.Format("Name = {0}\nProviderName = {1}\nConnectionString = {2}",
+                        cs.Name, cs.ProviderName, cs.ConnectionString);
+                    MessageBox.Show(str, "Connection settings");
+                }
+            }
         }
     }
 }

@@ -47,6 +47,7 @@ namespace DBConnection
             this.connectDB = new System.Windows.Forms.ToolStripMenuItem();
             this.disconnectDB = new System.Windows.Forms.ToolStripMenuItem();
             this.asyncConnectionDB = new System.Windows.Forms.ToolStripMenuItem();
+            this.ConnectionList = new System.Windows.Forms.ToolStripMenuItem();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.MainMenu.SuspendLayout();
@@ -69,7 +70,8 @@ namespace DBConnection
             this.runDB.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.connectDB,
             this.disconnectDB,
-            this.asyncConnectionDB});
+            this.asyncConnectionDB,
+            this.ConnectionList});
             this.runDB.Name = "runDB";
             this.runDB.Size = new System.Drawing.Size(58, 20);
             this.runDB.Text = "Run DB";
@@ -95,6 +97,13 @@ namespace DBConnection
             this.asyncConnectionDB.Size = new System.Drawing.Size(187, 22);
             this.asyncConnectionDB.Text = "Async connection DB";
             this.asyncConnectionDB.Click += new System.EventHandler(this.asyncConnectionDB_Click);
+            // 
+            // ConnectionList
+            // 
+            this.ConnectionList.Name = "ConnectionList";
+            this.ConnectionList.Size = new System.Drawing.Size(187, 22);
+            this.ConnectionList.Text = "Connection list";
+            this.ConnectionList.Click += new System.EventHandler(this.ConnectionList_Click);
             // 
             // DBConnection
             // 
@@ -123,6 +132,7 @@ namespace DBConnection
         private System.Windows.Forms.ToolStripMenuItem asyncConnectionDB;
         private System.Windows.Forms.BindingSource bindingSource1;
         private BindingSource bindingSource2;
+        private ToolStripMenuItem ConnectionList;
     }
 }
 
