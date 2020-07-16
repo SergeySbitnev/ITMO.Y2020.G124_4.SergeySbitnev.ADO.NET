@@ -169,7 +169,59 @@ namespace DBConnection
 
         private void ProductListButton_Click(object sender, EventArgs e)
         {
+            using (SqlConnection connection = new SqlConnection (connectionString))
+            {
+                try
+                {
+                    SqlCommand command = new SqlCommand("SELECT ProductName, UnitPrice, QuantityPerUnit FROM Products ORDER BY ProductName", connection);
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        ListViewItem newItem = listView1.Items.Add(reader["ProductName"].ToString());
+                        //newItem.SubItems.Add(reader["UnitPrice"].ToString());
+                        newItem.SubItems.Add(reader.GetDecimal(1).ToString());
+                        newItem.SubItems.Add(reader["QuantityPerUnit"].ToString());
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
 
+        private void TransactionButton_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlTransaction sqlTran = connection.BeginTransaction();
+                SqlCommand command = connection.CreateCommand();
+                command.Transaction = sqlTran;
+                try
+                {
+                    command.CommandText = "INSERT INTO Products (ProductName, UnitPrice, QuantityPerUnit) VALUES ('Wrong size', 12, '1 boxes')";
+                    command.ExecuteNonQuery();
+                    command.CommandText = "INSERT INTO Products (ProductName, UnitPrice, QuantityPerUnit) VALUES ('Wrong color', 25, '100 ml')";
+                    command.ExecuteNonQuery();
+                    sqlTran.Commit();
+                    MessageBox.Show("Date added.");
+                    
+                }
+                catch (SqlException ex)
+                {
+                    try
+                    {
+                        sqlTran.Rollback();
+                    }
+                    catch (Exception exRollback)
+                    {
+                        MessageBox.Show(exRollback.Message);
+                    }
+                    MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

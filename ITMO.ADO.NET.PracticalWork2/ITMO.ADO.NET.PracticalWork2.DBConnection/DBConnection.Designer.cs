@@ -57,6 +57,9 @@ namespace DBConnection
             this.ProductListButton = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.ProductName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Packing = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.TransactionButton = new System.Windows.Forms.Button();
             this.MainMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
@@ -152,7 +155,7 @@ namespace DBConnection
             // 
             // ProductListButton
             // 
-            this.ProductListButton.Location = new System.Drawing.Point(234, 27);
+            this.ProductListButton.Location = new System.Drawing.Point(12, 85);
             this.ProductListButton.Name = "ProductListButton";
             this.ProductListButton.Size = new System.Drawing.Size(103, 23);
             this.ProductListButton.TabIndex = 5;
@@ -163,11 +166,13 @@ namespace DBConnection
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.ProductName});
+            this.ProductName,
+            this.Price,
+            this.Packing});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(343, 27);
+            this.listView1.Location = new System.Drawing.Point(12, 114);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(180, 170);
+            this.listView1.Size = new System.Drawing.Size(332, 172);
             this.listView1.TabIndex = 6;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -176,11 +181,30 @@ namespace DBConnection
             // 
             this.ProductName.Text = "Product Name";
             // 
+            // Price
+            // 
+            this.Price.Text = "Price";
+            // 
+            // Packing
+            // 
+            this.Packing.Text = "Packing";
+            // 
+            // TransactionButton
+            // 
+            this.TransactionButton.Location = new System.Drawing.Point(436, 27);
+            this.TransactionButton.Name = "TransactionButton";
+            this.TransactionButton.Size = new System.Drawing.Size(75, 23);
+            this.TransactionButton.TabIndex = 7;
+            this.TransactionButton.Text = "Transaction";
+            this.TransactionButton.UseVisualStyleBackColor = true;
+            this.TransactionButton.Click += new System.EventHandler(this.TransactionButton_Click);
+            // 
             // DBConnection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(656, 454);
+            this.Controls.Add(this.TransactionButton);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.ProductListButton);
             this.Controls.Add(this.label2);
@@ -217,6 +241,9 @@ namespace DBConnection
         private Button ProductListButton;
         private ListView listView1;
         private ColumnHeader ProductName;
+        private ColumnHeader Price;
+        private ColumnHeader Packing;
+        private Button TransactionButton;
     }
 }
 
