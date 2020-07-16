@@ -52,6 +52,11 @@ namespace DBConnection
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.HowManyProductsButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.HowManyProductsButton2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ProductListButton = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.ProductName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.MainMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource2)).BeginInit();
@@ -63,7 +68,7 @@ namespace DBConnection
             this.runDB});
             this.MainMenu.Location = new System.Drawing.Point(0, 0);
             this.MainMenu.Name = "MainMenu";
-            this.MainMenu.Size = new System.Drawing.Size(800, 24);
+            this.MainMenu.Size = new System.Drawing.Size(656, 24);
             this.MainMenu.TabIndex = 0;
             this.MainMenu.Text = "menuStrip1";
             // 
@@ -115,6 +120,7 @@ namespace DBConnection
             this.HowManyProductsButton.TabIndex = 1;
             this.HowManyProductsButton.Text = "How many products";
             this.HowManyProductsButton.UseVisualStyleBackColor = true;
+            this.HowManyProductsButton.Click += new System.EventHandler(this.HowManyProductsButton_Click);
             // 
             // label1
             // 
@@ -125,11 +131,60 @@ namespace DBConnection
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
             // 
+            // HowManyProductsButton2
+            // 
+            this.HowManyProductsButton2.Location = new System.Drawing.Point(12, 56);
+            this.HowManyProductsButton2.Name = "HowManyProductsButton2";
+            this.HowManyProductsButton2.Size = new System.Drawing.Size(129, 23);
+            this.HowManyProductsButton2.TabIndex = 3;
+            this.HowManyProductsButton2.Text = "How many products 2";
+            this.HowManyProductsButton2.UseVisualStyleBackColor = true;
+            this.HowManyProductsButton2.Click += new System.EventHandler(this.HowManyProductsButton2_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(147, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "label2";
+            // 
+            // ProductListButton
+            // 
+            this.ProductListButton.Location = new System.Drawing.Point(234, 27);
+            this.ProductListButton.Name = "ProductListButton";
+            this.ProductListButton.Size = new System.Drawing.Size(103, 23);
+            this.ProductListButton.TabIndex = 5;
+            this.ProductListButton.Text = "Product List";
+            this.ProductListButton.UseVisualStyleBackColor = true;
+            this.ProductListButton.Click += new System.EventHandler(this.ProductListButton_Click);
+            // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ProductName});
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(343, 27);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(180, 170);
+            this.listView1.TabIndex = 6;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // ProductName
+            // 
+            this.ProductName.Text = "Product Name";
+            // 
             // DBConnection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(656, 454);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.ProductListButton);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.HowManyProductsButton2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.HowManyProductsButton);
             this.Controls.Add(this.MainMenu);
@@ -157,6 +212,11 @@ namespace DBConnection
         private ToolStripMenuItem ConnectionList;
         private Button HowManyProductsButton;
         private Label label1;
+        private Button HowManyProductsButton2;
+        private Label label2;
+        private Button ProductListButton;
+        private ListView listView1;
+        private ColumnHeader ProductName;
     }
 }
 

@@ -128,5 +128,48 @@ namespace DBConnection
                 }
             }
         }
+
+        private void HowManyProductsButton_Click(object sender, EventArgs e)
+        {
+            using (connection)
+            {
+                if (connection.State == ConnectionState.Closed)
+                {
+                    MessageBox.Show("Connect to base first.");
+                    return;
+                }
+
+                SqlCommand command = new SqlCommand();
+                command.Connection = connection;
+                command.CommandText = "SELECT COUNT (*) FROM Products";
+                try
+                {
+                    int number = (int)command.ExecuteScalar();
+                    label1.Text = number.ToString();
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void HowManyProductsButton2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int number = WorkWithDataBase.ExecuteScalarMetod(connectionString, "SELECT COUNT(*) FROM Products");
+                label2.Text = number.ToString();
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message, "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void ProductListButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
