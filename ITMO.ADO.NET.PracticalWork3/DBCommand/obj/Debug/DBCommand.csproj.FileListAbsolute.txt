@@ -1,0 +1,10 @@
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\bin\Debug\DBCommand.exe.config
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\bin\Debug\DBCommand.exe
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\bin\Debug\DBCommand.pdb
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\obj\Debug\DBCommand.csprojAssemblyReference.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\obj\Debug\DBCommand.formDBCommand.resources
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\obj\Debug\DBCommand.Properties.Resources.resources
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\obj\Debug\DBCommand.csproj.GenerateResource.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\obj\Debug\DBCommand.csproj.CoreCompileInputs.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\obj\Debug\DBCommand.exe
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork3\DBCommand\obj\Debug\DBCommand.pdb
