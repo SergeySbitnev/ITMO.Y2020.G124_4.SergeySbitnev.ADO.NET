@@ -7,3 +7,4 @@ C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork5\DataBindi
 C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork5\DataBindingComplex\obj\Debug\DataBindingComplex.csproj.CoreCompileInputs.cache
 C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork5\DataBindingComplex\obj\Debug\DataBindingComplex.exe
 C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork5\DataBindingComplex\obj\Debug\DataBindingComplex.pdb
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork5\DataBindingComplex\obj\Debug\DataBindingComplex.csprojAssemblyReference.cache
