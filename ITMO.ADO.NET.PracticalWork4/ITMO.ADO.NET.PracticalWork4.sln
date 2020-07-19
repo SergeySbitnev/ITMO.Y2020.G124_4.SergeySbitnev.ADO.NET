@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetDesigner", "DatasetDesigner\DatasetDesigner.csproj", "{C04E1E3C-28C3-4F86-97AC-5859A99F81AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingDataTable", "CreatingDataTable\CreatingDataTable.csproj", "{EF39EB23-687C-48FE-828D-A7C45C769670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapterProgram", "DataAdapterProgram\DataAdapterProgram.csproj", "{418E8FC8-5A6B-46EB-B314-CB736A1BE8F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapterWizard", "DataAdapterWizard\DataAdapterWizard.csproj", "{4D6E2F29-EA19-49B6-A757-BBD21CF13670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingDataTable", "WorkingDataTable\WorkingDataTable.csproj", "{13A02AB8-30F8-4E00-BA3B-D4D8802C0B35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewExample", "DataViewExample\DataViewExample.csproj", "{8FF7F3CA-7046-47B2-BD29-E26053E0E904}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C04E1E3C-28C3-4F86-97AC-5859A99F81AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04E1E3C-28C3-4F86-97AC-5859A99F81AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04E1E3C-28C3-4F86-97AC-5859A99F81AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04E1E3C-28C3-4F86-97AC-5859A99F81AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF39EB23-687C-48FE-828D-A7C45C769670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF39EB23-687C-48FE-828D-A7C45C769670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF39EB23-687C-48FE-828D-A7C45C769670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF39EB23-687C-48FE-828D-A7C45C769670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418E8FC8-5A6B-46EB-B314-CB736A1BE8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418E8FC8-5A6B-46EB-B314-CB736A1BE8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418E8FC8-5A6B-46EB-B314-CB736A1BE8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418E8FC8-5A6B-46EB-B314-CB736A1BE8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6E2F29-EA19-49B6-A757-BBD21CF13670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6E2F29-EA19-49B6-A757-BBD21CF13670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6E2F29-EA19-49B6-A757-BBD21CF13670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6E2F29-EA19-49B6-A757-BBD21CF13670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A02AB8-30F8-4E00-BA3B-D4D8802C0B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A02AB8-30F8-4E00-BA3B-D4D8802C0B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A02AB8-30F8-4E00-BA3B-D4D8802C0B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A02AB8-30F8-4E00-BA3B-D4D8802C0B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF7F3CA-7046-47B2-BD29-E26053E0E904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF7F3CA-7046-47B2-BD29-E26053E0E904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF7F3CA-7046-47B2-BD29-E26053E0E904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF7F3CA-7046-47B2-BD29-E26053E0E904}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F729A39A-2A61-4B66-8928-70D5BC5D3EF6}
+	EndGlobalSection
+EndGlobal
