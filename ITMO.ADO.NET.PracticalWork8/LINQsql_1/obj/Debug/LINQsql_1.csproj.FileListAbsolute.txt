@@ -1,0 +1,10 @@
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\bin\Debug\LINQsql_1.exe.config
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\bin\Debug\LINQsql_1.exe
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\bin\Debug\LINQsql_1.pdb
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\obj\Debug\LINQsql_1.csprojAssemblyReference.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\obj\Debug\LINQsql_1.FormLINQsql_1.resources
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\obj\Debug\LINQsql_1.Properties.Resources.resources
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\obj\Debug\LINQsql_1.csproj.GenerateResource.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\obj\Debug\LINQsql_1.csproj.CoreCompileInputs.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\obj\Debug\LINQsql_1.exe
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork8\LINQsql_1\obj\Debug\LINQsql_1.pdb
