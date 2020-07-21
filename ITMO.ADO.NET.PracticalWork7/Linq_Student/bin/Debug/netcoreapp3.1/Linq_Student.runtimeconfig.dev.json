@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\TitanSSV\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\TitanSSV\\.nuget\\packages"
+    ]
+  }
+}

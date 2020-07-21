@@ -1,0 +1,13 @@
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\bin\Debug\netcoreapp3.1\Linq_Student.exe
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\bin\Debug\netcoreapp3.1\Linq_Student.deps.json
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\bin\Debug\netcoreapp3.1\Linq_Student.runtimeconfig.json
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\bin\Debug\netcoreapp3.1\Linq_Student.runtimeconfig.dev.json
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\bin\Debug\netcoreapp3.1\Linq_Student.dll
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\bin\Debug\netcoreapp3.1\Linq_Student.pdb
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\obj\Debug\netcoreapp3.1\Linq_Student.csprojAssemblyReference.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\obj\Debug\netcoreapp3.1\Linq_Student.AssemblyInfoInputs.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\obj\Debug\netcoreapp3.1\Linq_Student.AssemblyInfo.cs
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\obj\Debug\netcoreapp3.1\Linq_Student.csproj.CoreCompileInputs.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\obj\Debug\netcoreapp3.1\Linq_Student.dll
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\obj\Debug\netcoreapp3.1\Linq_Student.pdb
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork7\Linq_Student\obj\Debug\netcoreapp3.1\Linq_Student.genruntimeconfig.cache

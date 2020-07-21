@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AZ48MZ3laxJeke0cwQH3HUJ99jSnHQ4MekumTL6E519LDf+ET737YUE9vgAnp98b9Ua7sqgoVXU/lw/fvLeVNg==",
+  "success": true,
+  "projectFilePath": "C:\\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\\ITMO.ADO.NET.PracticalWork7\\Linq_Student\\Linq_Student.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TitanSSV\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
