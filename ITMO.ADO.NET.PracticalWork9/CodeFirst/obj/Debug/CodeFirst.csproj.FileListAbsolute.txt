@@ -1,0 +1,12 @@
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\obj\Debug\CodeFirst.csprojAssemblyReference.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\obj\Debug\CodeFirst.csproj.CoreCompileInputs.cache
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\bin\Debug\CodeFirst.dll.config
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\bin\Debug\CodeFirst.dll
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\bin\Debug\CodeFirst.pdb
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\bin\Debug\EntityFramework.dll
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\bin\Debug\EntityFramework.xml
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\obj\Debug\CodeFirst.csproj.CopyComplete
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\obj\Debug\CodeFirst.dll
+C:\ITMO.Y2020.G124_4.SergeySbitnev.ADO.NET\ITMO.ADO.NET.PracticalWork9\CodeFirst\obj\Debug\CodeFirst.pdb
